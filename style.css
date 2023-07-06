@@ -19,12 +19,12 @@ body {
   height: 100vh;
   justify-content: center;
   font-family: myFont;
-  background-color: hsl(221, 100%, 96%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 main {
   display: flex;
-  width: 50%;
+  width: 40%;
   justify-content: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
@@ -47,14 +47,14 @@ main {
     hsla(256, 72%, 46%, 1),
     hsla(241, 72%, 46%, 0)
   );
-  width: 10rem;
-  height: 10rem;
+  width: 10.5rem;
+  height: 10.5rem;
   border-radius: 50%;
 }
 .container1 h2 {
   margin-top: 40px;
   margin-bottom: 30px;
-  font-size: medium;
+  font-size: 0.95rem;
   font-weight: 600;
   color: hsl(241, 100%, 89%);
 }
@@ -67,14 +67,14 @@ main {
   color: hsl(241, 100%, 89%);
 }
 .header {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 10px;
-  font-size: large;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .container1 .p {
   text-align: center;
-  width: 60%;
+  width: 80%;
   margin-bottom: 40px;
   color: hsl(241, 100%, 89%);
 }
@@ -92,11 +92,11 @@ main {
   font-weight: 600;
 }
 .paragraph {
-  width: 90%;
+  width: 80%;
 }
 .box {
   display: flex;
-  width: 90%;
+  width: 80%;
   justify-content: space-between;
   margin-top: 20px;
   padding: 15px 0;
@@ -135,9 +135,9 @@ main {
   padding-right: 10px;
 }
 .button {
-  margin-top: 20px;
-  width: 90%;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 80%;
+  margin-bottom: 40px;
 }
 button {
   background-color: hsl(224, 30%, 27%);

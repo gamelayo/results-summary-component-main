@@ -148,7 +148,12 @@ button {
   width: 100%;
   font-size: large;
   font-weight: 400;
+  cursor: pointer;
 }
+button:hover {
+  background-color: hsl(234, 85%, 45%);
+}
+
 .paragraph-box h3 {
   color: hsl(241, 100%, 89%);
 }
